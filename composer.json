@@ -1,0 +1,36 @@
+{
+  "name": "acolyte/laravel-security",
+  "type": "package",
+  "description": "laravel-security helps you secure your Laravel apps by setting various HTTP headers. it can help!",
+  "authors": [
+    {
+      "name": "Al Amin",
+      "email": "ialamin.pro@gmail.com"
+    }
+  ],
+  "keywords": [
+    "security",
+    "laravel",
+    "xss",
+    "x-powered-by",
+    "cors",
+    "dns",
+    "clickjacking",
+    "noSniff",
+    "no-cache",
+    "attack",
+    "Vulnerability"
+  ],
+  "license": "MIT",
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Acolyte\\LaravelSecurity\\": "src/"
+    }
+  },
+
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
